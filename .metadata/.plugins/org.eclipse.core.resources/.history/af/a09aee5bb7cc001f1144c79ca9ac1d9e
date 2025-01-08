@@ -1,0 +1,24 @@
+package chapter03;
+
+// 열거형(Enum) : 서로 관련된 상수들의 집합을 나타내는 특수한 클래스
+// enum 열거형타입이름 { 상수... }
+
+enum Color1 {
+	//지정하고자 하는 사는 상수를 ,로 나열
+	RED, ORANGE, YELLOW, GREEN, BLUE, INDIGO, PURPLE
+}
+
+public class G_Enum {
+
+	public static void main(String[] args) {
+		
+		Color1 color1 = Color1.RED;
+		System.out.println(color1);
+		
+		if (color1 == Color1.RED) {
+			System.out.println("빨강색!");
+		}
+
+	}
+
+}
