@@ -14,8 +14,9 @@
     <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
     <fullyQualifiedTypeName name="java.util.UUID"/>
     <fullyQualifiedTypeName name="java.time.Month"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.korit.crud.entity.UserEntity"/>
     <fullyQualifiedTypeName name="com.korit.crud.dto.auth.SignUpRequestDto"/>
     <fullyQualifiedTypeName name="com.korit.crud.service.AuthService"/>
+    <fullyQualifiedTypeName name="com.korit.crud.repository.UserRepository"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
