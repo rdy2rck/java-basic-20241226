@@ -12,45 +12,27 @@ public class FreightTrain extends Train implements Vehicle {
 	@Override
 	public void accelerate() {
 		if (!isStart) {
-<<<<<<< HEAD
 			System.out.println("화물 열차가 느리게 가속합니다!");
 		} else {
 			System.out.println("화물 열차가 가속하지 않습니다.");
-=======
-			System.out.println("화물 열차가 가속하지 않습니다.");
-		} else {
-			System.out.println("화물 열차가 느리게 가속합니다!");
->>>>>>> 0c73014aac1b6ef184bbd9c490a959298ada851e
 		}
 	}
 
 	@Override
 	public void stop() {
 		if (!isStart) {
-<<<<<<< HEAD
 			System.out.println("화물 열차가 느리게 정차합니다!");
 		} else {
 			System.out.println("화물 열차가 정차하지 않습니다.");
-=======
-			System.out.println("화물 열차가 정차하지 않습니다.");
-		} else {
-			System.out.println("화물 열차가 느리게 정차합니다!");
->>>>>>> 0c73014aac1b6ef184bbd9c490a959298ada851e
 		}
 	}
 	
 	@Override
 	public void setStart(boolean start) {
 		if (isStart) {
-<<<<<<< HEAD
 			System.out.println("화물 열차의 시동을 켭니다.");
 		} else {
 			System.out.println("화물 열차의 시동을 끕니다.");
-=======
-			System.out.println("화물 열차의 시동을 끕니다.");
-		} else {
-			System.out.println("화물 열차의 시동을 켭니다.");
->>>>>>> 0c73014aac1b6ef184bbd9c490a959298ada851e
 		}
 	}
 
